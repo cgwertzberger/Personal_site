@@ -1,0 +1,63 @@
+body {
+    background-color: white;
+  }
+  
+  figure {
+    margin-left: 0px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    background-color: grey;
+  }
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 16px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: lightblue;
+  }
+  
+  .active {
+    background-color: rgb(7, 115, 182);
+  }
+  
+  li {
+    border-right: 1px solid #bbb;
+  }
+  
+  figcaption {
+    margin-top: 5px;
+  }
+  
+  hr {
+    height: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: blue;
+  }
+  
+  input {
+    margin-top: 5px;
+  }
+  #footer {
+    text-align: center;
+    line-height: .5em;
+    color: darkblue;
+}
+body{background:rgb(245, 247, 249); color:rgb(1, 94, 170); font-family:'Times New Roman', Times, serif;}
+h1{font-weight: bold; font-size: 24pt;}
+h2{font-weight: bold; font-size: 18pt;}
+h3{font-style: italic; font-size: 14pt;}
+p{ color: black; font-size: 14pt; }
